@@ -1,0 +1,25 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #F7FFF7;
+  background-image: repeating-linear-gradient(
+      45deg,
+      #4ECDC4 25%,
+      transparent 25%,
+      transparent 75%,
+      #4ECDC4 75%,
+      #4ECDC4
+    ),
+    repeating-linear-gradient(
+      45deg,
+      #4ECDC4 25%,
+      #F7FFF7 25%,
+      #F7FFF7 75%,
+      #4ECDC4 75%,
+      #4ECDC4
+    );
+  background-position: 0 0, 9px 9px;
+  background-size: 18px 18px;
+}
